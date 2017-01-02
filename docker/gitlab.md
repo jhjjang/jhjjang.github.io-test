@@ -7,6 +7,7 @@ sameersbn:gitlab 을 이용하여 도커에서 gitlab 운영하기
 #### *Install redis*
 
 sameersbn 을 사용하지 않을 경우, 원하는 이미지로 변경해서 사용한다.
+
 ```
 $ sudo docker pull sameersbn/redis:latest
 $ sudo docker run --name=REDIS -d sameersbn/redis
@@ -20,6 +21,7 @@ $ sudo docker run --name REDIS -d redsable/redis:0.1
 #### *DB 준비*
 
 여기서는 MariaDB를 기준으로 설명한다.
+
 ```
 $ mysql -uroot -p mysql
 MariaDB[mysql]> create user 'gitlab'@'%.%.%.%' identified by '비밀번호';
