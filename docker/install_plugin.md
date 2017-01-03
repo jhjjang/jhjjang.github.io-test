@@ -10,7 +10,7 @@
 
 #### 3. 설치하기
 
- > 먼저 다음 명령을 수행합니다. 이 명령을 수행하지 않아 계속 제대로 설치가 되지 않았습니다
+ > - 먼저 다음 명령을 수행합니다. 이 명령을 수행하지 않아 계속 제대로 설치가 되지 않았습니다
  > - bundle install --no-deployment
  > - bundle install --without development test
  > - rake redmine:plugins:migrate RAILS_ENV=production
