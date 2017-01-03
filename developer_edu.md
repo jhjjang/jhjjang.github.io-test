@@ -2,24 +2,27 @@
 
  
 1. 1차 컴퓨터 세팅(windows + virtualbox[우분투]) - 인터넷 가능 => *1일차*
+
 > redmine 계정생성, 신입사원 숙지사항 리뷰 => *1일차*
 > markdown 문법 숙지 => *1일차*
 
- > - http://sergeswin.com/1013
- > - http://commonmark.org/help/
- > - http://dillinger.io/
- > - redmine help 활용
+  > - http://sergeswin.com/1013
+  > - http://commonmark.org/help/
+  > - http://dillinger.io/
+  > - redmine help 활용
 
 
 2. redmine 작성 - 후임을 위한 문서화 진행, 일일이슈, 문의사항 등등 모든 커뮤니케이션을 처리 => *1일차*
 3. virtualbox(우분투설치, 한글설정), 리눅스 기초 명령어 숙지 => *2~3일차*
-> - "linux1":http://nuninaya.tistory.com/158
-> - "linux2":http://raynee.tistory.com/144
+
+ > - "linux1":http://nuninaya.tistory.com/158
+ > - "linux2":http://raynee.tistory.com/144
 
 4. vim 기본 사용법 숙지 => *4일차*
-> - [vim](https://wiki.kldp.org/KoreanDoc/html/Vim_Guide-KLDP/Vim_Guide-KLDP.html)
->-  [vim2](http://yagi815.tistory.com/146)
->-  [vim3](http://slayer95.tistory.com/entry/Tip%25EB%25A6%25AC%25EB%2588%2585%25EC%258A%25A4-vi%25ED%258E%25B8%25EC%25A7%2591%25EA%25B8%25B0-%25EB%25AA%2585%25EB%25A0%25B9%25EC%2596%25B4-%25EB%25AA%25A8%25EC%259D%258C][vim3)
+
+ > - [vim](https://wiki.kldp.org/KoreanDoc/html/Vim_Guide-KLDP/Vim_Guide-KLDP.html)
+ >-  [vim2](http://yagi815.tistory.com/146)
+ >-  [vim3](http://slayer95.tistory.com/entry/Tip%25EB%25A6%25AC%25EB%2588%2585%25EC%258A%25A4-vi%25ED%258E%25B8%25EC%25A7%2591%25EA%25B8%25B0-%25EB%25AA%2585%25EB%25A0%25B9%25EC%2596%25B4-%25EB%25AA%25A8%25EC%259D%258C][vim3)
 
 5. apache + mysql + php 설치(apt) => *5일차*
 6. apache 설정 심화(설정파일 경로, 가상호스트, 기본적인 설정값, rewrite 모듈) => *5~6일차*
