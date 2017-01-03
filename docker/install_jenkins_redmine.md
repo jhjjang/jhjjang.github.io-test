@@ -1,7 +1,10 @@
+#### Jenkins 설치
+
+> $ docker run -p 8080:8080 -v /docker/jenkins:/var/jenkins_home -u root jenkins
+
 #### mysql 설치
 
 > $ docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=redmine mysql
-
 
 #### Redmine 설치
 
