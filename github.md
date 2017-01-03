@@ -1,4 +1,4 @@
-# Github 멀티계정 셋팅시
+#### Github 멀티계정 셋팅시
 ssh-keygen -t rsa -C "첫번째 계정이메일"
 ==> 저장시 첫번째 계정의 키 저장 (id_rsa)
 
@@ -10,13 +10,16 @@ cd ~/.ssh/
 touch config
 
 config 파일에 아래내용을 추가 후 수정
-# githubPersonal
+
+#### githubPersonal
+
 Host first
     HostName github.com
     User git
     IdentityFile ~/.ssh/id_rsa
 
-# githubWork
+#### githubWork
+
 Host second
     HostName github.com
     User git
