@@ -7,3 +7,4 @@
 5. [우분투설치](https://jhjjang.github.io/install_ubuntu)
 6. [Vi 에디터](https://jhjjang.github.io/vi_editor)
 7. [젠킨스-빌드](https://jhjjang.github.io/build)
+8. [머신러닝](https://jhjjang.github.io/machine_learning)
