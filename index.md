@@ -1,6 +1,6 @@
 ## 목록 
 
-1. [Github 멀티계정 셋팅](https://jhjjang.github.io/github)
+1. [Github 멀티계정 셋팅](https://jhjjang.github.io/github.txt)
 2. [도커](https://jhjjang.github.io/docker/)
 3. [개발자교육](https://jhjjang.github.io/developer_edu)
 4. [디자인패턴](https://jhjjang.github.io/design_patten)
