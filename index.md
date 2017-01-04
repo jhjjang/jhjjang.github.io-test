@@ -1,6 +1,7 @@
 ## 목록 
 
 1. [Github 멀티계정 셋팅](https://jhjjang.github.io/github.txt)
+  > [계정셋팅](https://aweekj.github.io/2016-07-16/using-multiple-accounts-in-git/)
 2. [도커](https://jhjjang.github.io/docker/)
 3. [개발자교육](https://jhjjang.github.io/developer_edu)
 4. [디자인패턴](https://jhjjang.github.io/design_patten)
