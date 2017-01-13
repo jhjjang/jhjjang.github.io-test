@@ -5,3 +5,4 @@
 3. [라라벨 프레임워크 따라하기 #3 게시판 기능 구현해보기](https://www.youtube.com/watch?v=YyBmrvJ6Vcc&t=3s&list=PL_1fv4_9uPOOFzzvhfnXEa0toN_JzAqnz&index=3)
 4. [라라벨 프레임워크 따라하기 #4 인증 기능 알아보기](https://www.youtube.com/watch?v=XWGx707YJuQ&t=4s&list=PL_1fv4_9uPOOFzzvhfnXEa0toN_JzAqnz&index=4)
 5. [라라벨 프레임워크 따라하기 #5 이벤트 기능 알아보기](https://www.youtube.com/watch?v=g9i2dOA8Jwc&t=9s&list=PL_1fv4_9uPOOFzzvhfnXEa0toN_JzAqnz&index=5)
+6. [라라벨 한국어메뉴얼](https://laravel.kr/docs)
