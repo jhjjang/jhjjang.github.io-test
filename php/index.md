@@ -2,4 +2,4 @@
 2. [디자인패턴](https://jhjjang.github.io/php/design_patten)
 3. [PHPVersion변경](https://jhjjang.github.io/php/change_php_version)
 4. [라라벨강좌](https://jhjjang.github.io/php/laravel/)
-4. [PHP-FPM](https://jhjjang.github.io/php/php-fpm/)
+4. [PHP-FPM](https://jhjjang.github.io/php/php-fpm)
