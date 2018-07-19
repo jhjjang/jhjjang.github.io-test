@@ -1,9 +1,11 @@
-setup 순서
+## setup 순서
 1. vi /etc/apt/sources.list
 2. add content to sources.list blow conents
-> 1. deb http://mirrors.digitalocean.com/ubuntu trusty main multiverse
-> 2. deb http://mirrors.digitalocean.com/ubuntu  trusty-updates main multiverse
-> 3. deb http://security.ubuntu.com/ubuntu  trusty-security main multiverse
+
+- deb http://mirrors.digitalocean.com/ubuntu trusty main multiverse
+- deb http://mirrors.digitalocean.com/ubuntu  trusty-updates main multiverse
+- deb http://security.ubuntu.com/ubuntu  trusty-security main multiverse
+
 
 3. apt-get update
 4. apt-get install python-software-properties
