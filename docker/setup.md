@@ -21,7 +21,7 @@ docker pull jhjang/develop:0.2
 
 내려받은 이미지로 컨테이너를 생성한다. 
 <pre>
-docker run -i -t --name 컨테이너이름 -v 로컬소스위치:컨테이너소스위치 -p 80:80 jhjang/develop:0.2 /bin/bash
+docker run -itd --name 컨테이너이름 -v 로컬소스위치:컨테이너소스위치 -p 80:80 --privileged=true jhjang/develop:0.2 "/sbin/init"
 </pre>
 
 컨테이너로 접속된 후 /etc/apache2/sites-enabled/000-default.conf 파일의 VirtualHost 중 ServerName(hosts파일에 설정한 Name)과 DocumentRoot를 환경에 맞게 셋팅한다.
