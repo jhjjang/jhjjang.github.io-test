@@ -1,8 +1,17 @@
-## 목록 
-
-1. [Github 멀티계정 셋팅](https://jhjjang.github.io/github/)
-2. [도커](https://jhjjang.github.io/docker/)
-3. [PHP](http://jhjjang.github.io/php/)
-4. [System](http://jhjjang.github.io/system/)
-5. [머신러닝](https://jhjjang.github.io/machine-learning/)
-6. [vimrc](https://jhjjang.github.io/vimrc/)
+<html>
+  <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    <h1>목록</h1>
+    <ol>
+      <li><a href="https://jhjjang.github.io/github/">Github 멀티계정 셋팅</a></li>
+      <li><a href="https://jhjjang.github.io/docker/">도커</li>
+      <li><a href="http://jhjjang.github.io/php/">PHP</a></li>
+      <li><a href="http://jhjjang.github.io/system/">System</a></li>
+      <li><a href="https://jhjjang.github.io/machine-learning/">머신러닝</a></li>
+      <li><a href="https://jhjjang.github.io/vimrc/">vimrc</a></li>
+    </ol>
+</body>
+</html>
