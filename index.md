@@ -14,7 +14,7 @@
 }
     
 .carousel {
-    position:position;
+    position:static;
 }
 </style>
 <body>
