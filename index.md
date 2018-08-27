@@ -16,6 +16,10 @@
 .carousel {
     position:static;
 }
+
+.site-footer{
+    display:none;
+}
 </style>
 <body>
     <div id="carousel-example" class="carousel slide" data-ride="carousel">
