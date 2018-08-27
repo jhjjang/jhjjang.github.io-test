@@ -12,6 +12,10 @@
     align-items:center;
     height:400px;
 }
+    
+.carousel {
+    position:position;
+}
 </style>
 <body>
     <div id="carousel-example" class="carousel slide" data-ride="carousel">
