@@ -10,6 +10,7 @@
     color:black;
     display:flex;
     align-items:center;
+    height:400px;
 }
 </style>
 <body>
