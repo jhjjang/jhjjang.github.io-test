@@ -16,7 +16,7 @@ bq. 컴퓨터에 부착된 네트워크를 통해 송수신되는 기타 패킷�
 * pcap(packet capture) : 네트워크 트래픽 포착용API를 구성하고 있으며, 유닉스 계열 운영체제들은 libpcap 라이브러리에 pcap을 포함한다. 윈도우에서는 WinPcap이라는 libcap 포팅을 이용한다.
 
 * [tcpdump 개념](:https://ko.wikipedia.org/wiki/Tcpdump)
-* "tcpdump 실행예시](:https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_tcpdump)
+* [tcpdump 실행예시](:https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_tcpdump)
 
 ---
 
