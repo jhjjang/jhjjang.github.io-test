@@ -15,8 +15,8 @@ bq. 컴퓨터에 부착된 네트워크를 통해 송수신되는 기타 패킷�
 대부분의 유닉스 계열 운영 체제(ex)리눅스)에서 동작하며 여기서 +libpcap+ 라이브러리를 사용하여 패킷을 포획한다.
 * pcap(packet capture) : 네트워크 트래픽 포착용API를 구성하고 있으며, 유닉스 계열 운영체제들은 libpcap 라이브러리에 pcap을 포함한다. 윈도우에서는 WinPcap이라는 libcap 포팅을 이용한다.
 
-* [tcpdump 개념](:https://ko.wikipedia.org/wiki/Tcpdump)
-* [tcpdump 실행예시](:https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_tcpdump)
+* [tcpdump 개념](https://ko.wikipedia.org/wiki/Tcpdump)
+* [tcpdump 실행예시](https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_tcpdump)
 
 ---
 
@@ -31,7 +31,7 @@ bq. tcpflow는 TCP연결의 일부로 전송된 데이터를 캡처하고 프로
 * tcpdump나 WireShark와 달리 tcpflow는 한번에 수천 또는 수백만의 TCP 연결을 재구성하고 일반 파일을 저장하므로 데이터를 쉽게 분석할 수 있다.
 
 * [tcpflow 개념](http://manpages.ubuntu.com/manpages/artful/man1/tcpflow.1.html)
-* [tcpflow 실행예시](:https://coderwall.com/p/58uhmg/watch-http-requests-on-any-port-with-tcpflow)
+* [tcpflow 실행예시](https://coderwall.com/p/58uhmg/watch-http-requests-on-any-port-with-tcpflow)
 ---
 
 bq. tcpdump, tcpflow 모두 패킷캡처프로그램이지만, tcpdump는 패킷의 요약을 보여주고 tcpflow는 요청과 응답에 대한 실제 데이터를 캡처
