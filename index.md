@@ -1,7 +1,4 @@
 
-<body>
-    <div id="carousel-example" class="carousel slide" data-ride="carousel">
-        <!-- Wrapper for slides -->
         <div class="row">
             <div class="col-xs-offset-3 col-xs-6">
                 <div class="carousel-inner">
@@ -49,15 +46,3 @@
                 </div>
             </div>
         </div>
-        <!-- Controls --> <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-     <a class="right carousel-control" href="#carousel-example" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
-
-    </div>
-
-
-</body>
-</html>
