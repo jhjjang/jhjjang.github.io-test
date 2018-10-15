@@ -6,7 +6,6 @@
                         <div class="carousel-content">
                             <div>
                                 <h3><a href="https://jhjjang.github.io/github/">Github 멀티계정 셋팅</a></h3>
-                                <p>깃헙 멀태계정 셋팅</p>
                             </div>
                         </div>
                     </div>
@@ -14,7 +13,7 @@
                         <div class="carousel-content">
                             <div>
                                 <h3><a href="https://jhjjang.github.io/docker/">도커</a></h3>
-                                <p>도커 설치 및 사용방법</p>
+      
                             </div>
                         </div>
                     </div>
@@ -22,7 +21,6 @@
                         <div class="carousel-content">
                             <div>
                                 <h3><a href="http://jhjjang.github.io/system/">System</a></h3>
-                                <p>시스템 설정</p>
                             </div>
                         </div>
                     </div>
@@ -30,7 +28,6 @@
                         <div class="carousel-content">
                             <div>
                                 <h3><a href="https://jhjjang.github.io/machine-learning/">머신러닝</a></h3>
-                                <p>머신러닝 참고 사이트</p>
                             </div>
                         </div>
                     </div>
@@ -38,7 +35,6 @@
                         <div class="carousel-content">
                             <div>
                                 <h3><a href="https://jhjjang.github.io/vimrc/">vimrc</a></h3>
-                                <p>VI 설정</p>
                             </div>
                         </div>
                     </div>
