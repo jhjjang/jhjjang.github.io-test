@@ -15,7 +15,7 @@
     newly modified .php files
 
 -->
-<project name="shoplinker" basedir="." default="lint">
+<project name="test" basedir="." default="lint">
     <!-- A new target to search for modified files -->
     <target name="checkModified" description="Check for modified php files">
         <echo message="Searching for newly modified files" />
