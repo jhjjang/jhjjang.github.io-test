@@ -40,15 +40,14 @@
 18. memcached 운용 ([memcached 설치 및 운용](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-memcache-on-ubuntu-14-04), [사용법](http://php.net/manual/kr/book.memcached.php), [사용법2](http://php.net/manual/kr/book.memcache.php)) => *23일차*
 19. xdebug 사용법 숙지 ([xdebug](https://opentutorials.org/course/62/2546), [xdebug2](https://opentutorials.org/course/692/3648)) => *24일차*
 20. 버전관리, sourcetree 사용법 숙지 (조엘 스폴스키의 hginit.com 한글번역사이트 참조) => *25~27일차*
-21. 설치: apt-get install mercurial
-22. mercurial 서버운용: [서버운용](http://btsweet.blogspot.kr/2014/01/install-hgweb-server.html)
-23. mercurial 입문서
- > - [mercurial 입문서](https://www.mercurial-scm.org/wiki/KoreanTutorial)
- > - [Mercurial](http://bloodguy.tistory.com/entry/Mercurial-%EC%A1%B0%EC%97%98-%EC%8A%A4%ED%8F%B4%EC%8A%A4%ED%82%A4%EC%9D%98-HgInitcom)
+21. 설치: apt-get install git
+22. git 입문서
+ > - [git 입문서](https://rogerdudler.github.io/git-guide/index.ko.html)
+
  
-24. *충동햬결 방안 마련 및 숙지*
+23. *충동햬결 방안 마련 및 숙지*
 24. apache + mysql + php + codeigniter + hg + redmine 종합 훈련(server/client) => *28~30일차*
-26. php 디자인 패턴 ([디자인패턴](http://wafe.github.io/php-the-right-way/pages/Design-Patterns.html), [디자인패턴2](http://designpatternsphpko.readthedocs.io/ko/latest/)) => *31일차*
-27. 3차 컴퓨터 개발환경 세팅(로컬 개발 환경 결정:ubuntu, windows) => *32일차*
-28. 리팩토링 소스(실서비스 소스) clone 및 소스 리뷰 => *33~37일차*
-29. 실 업무 투입, 자기계발 진행
+25. php 디자인 패턴 ([디자인패턴](http://wafe.github.io/php-the-right-way/pages/Design-Patterns.html), [디자인패턴2](http://designpatternsphpko.readthedocs.io/ko/latest/)) => *31일차*
+26. 3차 컴퓨터 개발환경 세팅(로컬 개발 환경 결정:ubuntu, windows) => *32일차*
+27. 리팩토링 소스(실서비스 소스) clone 및 소스 리뷰 => *33~37일차*
+28. 실 업무 투입, 자기계발 진행
