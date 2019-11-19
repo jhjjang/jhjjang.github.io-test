@@ -17,3 +17,5 @@
 <h3><a href="https://jhjjang.github.io/awstip/">AWS Tip</a></h3>
 
 <h3><a href="https://jhjjang.github.io/php/">PHP</a></h3>
+
+<h3><a href="https://jhjjang.github.io/redmine/">레드마인 플러그인 설치법 (Bitnami ver)</a></h3>
