@@ -1,4 +1,174 @@
 ```
+https://facebook.github.io/react-native/docs/getting-started
+https://g6ling.gitbooks.io/react-native-tutorial-korean/1-1ko.html
+
+/*
+설치하기
+npm install -g expo-cli
+
+expo init MyApp
+minimal 선택
+프로젝트명 : myapp
+설명 : This is first react native app 
+yarn 으로 설치 
+
+cd MyApp
+npm start # you can also use: expo start
+*/
+
+
+
+1.안드로이드 설치
+
+2. sdk - 상세보이기 선택후 28설치할것 
+Android SDK Platform 28
+Intel x86 Atom_64 System Image or Google APIs Intel x86 Atom System Image
+
+3. 안드로이드 홈 지정하기 
+Configure the ANDROID_HOME environment variable
+
+4.환경변수 추가
+ANDROID_HOME
+ANDROID_SDK_ROOT
+C:\Users\user\AppData\Local\Android\Sdk
+
+Add platform-tools to Path
+C:\Users\user\AppData\Local\Android\Sdk\platform-tools
+%ANDROID_HOME%\platform-tools
+
+npx react-native init AwesomeProject
+
+AVD
+Nexus 5X  설치
+
+npm install -g react-native-cli
+
+npx react-native init AwesomeProject
+npx react-native init AwesomeProject --version X.XX.X
+npx react-native init AwesomeTSProject --template react-native-template-typescript  # 템플릿포함 
+
+
+npx react-native init MyApp1
+cd /react_native/MyApp1
+npx react-native run-android
+
+
+alignContent 는 교차 축을 따라 선의 분포를 정의합니다. 항목을 사용하여 여러 줄로 줄 바꿈 한 경우에만 효과가 있습니다 flexWrap.
+
+flex-start( 기본값 ) 줄 바꿈 된 선을 컨테이너의 가로축 시작 부분에 맞 춥니 다.
+
+flex-end 래핑 된 선을 컨테이너의 횡축 끝에 맞 춥니 다.
+
+stretch 컨테이너의 가로축 높이와 일치하도록 줄 바꿈.
+
+center 포장 된 선을 용기의 가로 축 가운데에 맞 춥니 다.
+
+space-between 컨테이너의 기본 축에 걸쳐 줄을 균등하게 배치하여 줄 사이에 남은 공간을 분산시킵니다.
+
+space-around컨테이너의 주축에 걸쳐 줄을 균등하게 배치하여 줄 주위에 남은 공간을 분배합니다.
+
+
+
+화면간이동
+npm install --save react-navigation
+
+npx는 자바스크립트 패키지 관리 모듈인 npm(Node Package Module)의 npm@5.2.0 버전부터 새로 추가된 도구이다. 
+따라서 npm@5.2.0 이상 버전만 깔려 있다면 npx 커맨드를 사용 가능합니다.
+
+
+
+npx react-native init MyApp3
+cd /react_native/MyApp3
+npx react-native run-android
+
+
+npm install --save react-navigation react-native-gesture-handler react-native-reanimated react-native-screens
+npm install --save react-navigation-stack
+npm install --save react-navigation-drawer
+npm install --save native-base 
+npm install --save react-navigation-tabs
+npm install 
+npm audit fix
+
+
+자꾸 오류남 - unable  어쩌고
+
+mkdir android/app/src/main/assets
+react-native bundle --platform android --dev false --entry-file index.js 
+--bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+
+
+index.js 
+/**
+ * @format
+ */
+
+import {AppRegistry} from 'react-native';
+//import App from './App';
+import MainScreen from './components/MainScreen';
+import {name as appName} from './app.json';
+
+//AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(appName, () => MainScreen);
+
+
+./components/MainScreen.js
+import React, { Component } from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import { Icon } from 'native-base'; // 추가된 코드
+import { createBottomTabNavigator } from 'react-navigation-tabs'; 
+import { createAppContainer } from 'react-navigation'; 
+
+import HomeTab from './HomeTab'
+import SearchTab from './SearchTab'
+import AddMediaTab from './AddMediaTab'
+import LikesTab from './LikesTab'
+import ProfileTab from './ProfileTab'
+
+// 하단 탭 네비게이터 생성
+const AppTabNavigator = createBottomTabNavigator({
+    HomeTab: { screen: HomeTab },
+    SearchTab: { screen: SearchTab },
+    AddMediaTab: { screen: AddMediaTab },
+    LikesTab: { screen: LikesTab },
+    ProfileTab: { screen: ProfileTab }
+  });
+  
+const AppTabContainet = createAppContainer(AppTabNavigator);
+
+export default class MainScreen extends Component {
+
+  // navigationOptions 코드 추가
+  static navigationOptions = {
+    headerLeft: <Icon name='ios-camera' style={{ paddingLeft:10 }}/>,
+    title: 'Instagram',
+    headerRight: <Icon name='ios-send' style={{ paddingRight:10 }}/>,
+  }
+
+  render() {
+    /*return (
+      <View style={styles.container}>
+        <Text>MainScreen</Text>
+      </View>
+    );*/
+    return (<AppTabContainet/>);
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
+```
+
+
+
+
+```
 cd /react_native_workspace
 1.프로젝트 만들기 
 npx react-native init MyApp3
