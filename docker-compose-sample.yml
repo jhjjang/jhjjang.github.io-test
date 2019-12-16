@@ -1,0 +1,50 @@
+version: '3.6'
+services:
+  flask:
+    image: jhjang/flask
+    container_name: flask
+    working_dir: /usr/local/app
+    depends_on:
+      - mongo
+    volumes:
+      - /Users/jhjang/Downloads/linkage:/usr/local/app
+    ports:
+      - 3000:3000
+      - 80:80
+    environment:
+      - LANG=ko_KR.UTF-8
+      - LC_ALL=ko_KR.UTF-8
+    privileged: true
+    tty: true
+    networks:
+      - backend
+      - message
+  mongo:
+    container_name: mongo
+    image: mongo:4-xenial
+    ports:
+      - 27017:27017
+    networks:
+      - backend    
+  django:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - DJANGO_DEBUG=True
+      - DJANGO_DB_HOST=db
+      - DJANGO_DB_PORT=5432
+      - DJANGO_DB_NAME=sampledb
+      - DJANGO_DB_USERNAME=sampleuser
+      - DJANGO_DB_PASSWORD=samplesecret
+      - DJANGO_SECRET_KEY=dev_secret_key
+    ports:
+      - "8000:8000"
+    command: 
+      - python manage.py runserver 0:8000
+    volumes:
+      - ./:/usr/local/django/          
+networks:
+    backend:
+    message:   
+   
