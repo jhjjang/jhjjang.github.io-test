@@ -29,7 +29,7 @@ services:
   django:
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: ./Dockerfile-dev
     environment:
       - DJANGO_DEBUG=True
       - DJANGO_DB_HOST=db
