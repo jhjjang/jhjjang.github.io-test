@@ -11,3 +11,4 @@
 9. <h3><a href="https://jhjjang.github.io/php/">PHP</a></h3>
 10. <h3><a href="https://jhjjang.github.io/redmine/">레드마인 플러그인 설치법 (Bitnami ver)</a></h3>
 11. <h3><a href="https://jhjjang.github.io/react-native/">React-Native</a></h3>
+12. <h3><a href="https://jhjjang.github.io/linux/">리눅스 쉘과 명령어 기초</a></h3>
