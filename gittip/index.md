@@ -1,9 +1,12 @@
 # Git Tips
 > [git tips](https://github.com/git-tips/tips)의 한국어 버전 문서입니다.
 
-[English](http://git.io/git-tips) | [中文](https://github.com/521xueweihan/git-tips) | [Русский](https://github.com/Imangazaliev/git-tips) | [Tiếng Việt](https://github.com/hprobotic/git-tips)
 
 ## 팁 툴
+
+#### Git flow feature finsh 사용시 원격브랜치 유지/삭제 config 설정방법
+ - git config gitflow.feature.finish.keepremote true ⇒ 유지
+ - git config gitflow.feature.finish.keepremote false ⇒ 삭제
 
 * [git-tip](https://www.npmjs.com/package/git-tip) - 아래에 나열된 팁들을 사용할 수 있는 CLI 툴 ([도커 컨테이너](https://github.com/djoudi5/docker-git-tip))
 
