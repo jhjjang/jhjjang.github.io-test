@@ -8,7 +8,8 @@
  - git config gitflow.feature.finish.keepremote true ⇒ 유지
  - git config gitflow.feature.finish.keepremote false ⇒ 삭제
 
-* [git-tip](https://www.npmjs.com/package/git-tip) - 아래에 나열된 팁들을 사용할 수 있는 CLI 툴 ([도커 컨테이너](https://github.com/djoudi5/docker-git-tip))
+### Tip
+[git-tip](https://www.npmjs.com/package/git-tip) - 아래에 나열된 팁들을 사용할 수 있는 CLI 툴 ([도커 컨테이너](https://github.com/djoudi5/docker-git-tip))
 
 ## 목차
 
